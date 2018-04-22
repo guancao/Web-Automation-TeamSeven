@@ -265,43 +265,14 @@ public class CommonAPI {
         return driver1;
     }
 
+    public List<String> getTextLists(String locator) {
+        List<WebElement> elementList = new ArrayList<WebElement>();
+        List<String> textList = new ArrayList<String>();
+        elementList = driver.findElements(By.cssSelector(locator));
+        for (WebElement element : elementList) {
+            textList.add(element.getText());
+        }
+        return textList;
 
-//    public WebDriver driver = null;
-//
-//    @Parameters({"url"})
-//    @BeforeMethod
-//    public void setUp(String url) {
-//        System.setProperty("webdriver.chrome.driver", "/Users/peoplentech/eclipse-workspace-March2018/SeleniumProject1/driver/chromedriver");
-//        driver = new ChromeDriver();
-//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-//        driver.get(url);
-//        driver.manage().window().maximize();
-//    }
-//
-//    @AfterMethod
-//    public void afterMethod() {
-//        driver.close();
-//    }
-//
-//    public void clickOnCss(String locator){
-//        driver.findElement(By.cssSelector(locator)).click();
-//    }
-//    public void typeOnCss(String locator, String value){
-//        driver.findElement(By.cssSelector(locator)).sendKeys(value);
-//    }
-//    public List<WebElement> getWebElementList(String locator){
-//        List<WebElement> list = new ArrayList<WebElement>();
-//        list = driver.findElements(By.cssSelector(locator));
-//        return list;
-//    }
-//    public List<String> getTextLists(String locator){
-//        List<WebElement> elementList = new ArrayList<WebElement>();
-//        List<String> textList = new ArrayList<String>();
-//        elementList = driver.findElements(By.cssSelector(locator));
-//        for(WebElement element:elementList){
-//            textList.add(element.getText());
-//        }
-//        return textList;
-//    }
-
+    }
 }
