@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="e28e0326-cf55-43ed-896c-8d66f2ab6245" name="Default" comment="" />
+=======
+    <list default="true" id="e28e0326-cf55-43ed-896c-8d66f2ab6245" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/CNBC/src/test/java/search/TestSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNBC/src/test/java/search/TestSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+    </list>
+>>>>>>> d9f260321b10dd2027b7fd831086918b7c5b2b6b
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Amazon/target/" />
@@ -47,11 +54,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="TestSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CNBC/src/test/java/search/TestSearch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
               <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+=======
+      <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CNBC/src/main/java/search/SearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-68">
+              <caret line="11" column="75" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="75" />
+>>>>>>> d9f260321b10dd2027b7fd831086918b7c5b2b6b
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,8 +77,13 @@
       <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="126">
               <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+=======
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+>>>>>>> d9f260321b10dd2027b7fd831086918b7c5b2b6b
               <folding>
                 <element signature="e#1898#1899#0" expanded="true" />
                 <element signature="e#1973#1974#0" expanded="true" />
@@ -82,12 +102,42 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
               <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding />
+=======
+      <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+              <folding>
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1503#1504#0" expanded="true" />
+                <element signature="e#1934#1935#0" expanded="true" />
+                <element signature="e#2009#2010#0" expanded="true" />
+                <element signature="e#2981#2982#0" expanded="true" />
+                <element signature="e#3048#3049#0" expanded="true" />
+                <element signature="e#4237#4238#0" expanded="true" />
+                <element signature="e#4277#4278#0" expanded="true" />
+                <element signature="e#4314#4315#0" expanded="true" />
+                <element signature="e#4357#4358#0" expanded="true" />
+                <element signature="e#4702#4703#0" expanded="true" />
+                <element signature="e#4769#4770#0" expanded="true" />
+                <element signature="e#6877#6878#0" expanded="true" />
+                <element signature="e#6925#6926#0" expanded="true" />
+                <element signature="e#6965#6966#0" expanded="true" />
+                <element signature="e#7015#7016#0" expanded="true" />
+                <element signature="e#8997#8998#0" expanded="true" />
+                <element signature="e#9064#9065#0" expanded="true" />
+                <element signature="e#9109#9110#0" expanded="true" />
+                <element signature="e#9189#9190#0" expanded="true" />
+              </folding>
+>>>>>>> d9f260321b10dd2027b7fd831086918b7c5b2b6b
             </state>
           </provider>
         </entry>
@@ -156,8 +206,11 @@
         <option value="$PROJECT_DIR$/CNBC/src/test/resources/CNBCTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/CNBC/src/test/java/search/TestSearch.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/KaiserPermanente/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+=======
+>>>>>>> d9f260321b10dd2027b7fd831086918b7c5b2b6b
       </list>
     </option>
   </component>
@@ -523,6 +576,7 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="TestSearch_(1) - 2018.04.21 at 20h 39m 35s.xml">
       <configuration name="TestSearch (1)" configurationId="TestNG" />
     </history-entry>
@@ -584,14 +638,120 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+    <history-entry file="TestSearch_(1) - 2018.04.21 at 20h 41m 28s.xml">
+      <configuration name="TestSearch (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearch_(1) - 2018.04.21 at 20h 41m 40s.xml">
+      <configuration name="TestSearch (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearch_(1) - 2018.04.21 at 20h 43m 48s.xml">
+      <configuration name="TestSearch (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearch_(1) - 2018.04.21 at 20h 44m 50s.xml">
+      <configuration name="TestSearch (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearch_(1) - 2018.04.21 at 21h 28m 01s.xml">
+      <configuration name="TestSearch (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearch_(1) - 2018.04.21 at 21h 29m 42s.xml">
+      <configuration name="TestSearch (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearch_(1) - 2018.04.21 at 21h 31m 25s.xml">
+      <configuration name="TestSearch (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearch_(1) - 2018.04.21 at 21h 35m 55s.xml">
+      <configuration name="TestSearch (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearch_(1) - 2018.04.21 at 21h 39m 38s.xml">
+      <configuration name="TestSearch (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearch_(1) - 2018.04.21 at 21h 40m 56s.xml">
+      <configuration name="TestSearch (1)" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.25141242" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" weight="0.25503355" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34463277" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="right" id="Mongo Explorer" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32909605" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23020135" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+>>>>>>> d9f260321b10dd2027b7fd831086918b7c5b2b6b
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Mongo Explorer" order="1" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.34463277" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24966443" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32909605" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.25141242" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.25503355" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+<<<<<<< HEAD
     <breakpoint-manager />
     <watches-manager />
+=======
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java</url>
+          <line>70</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+>>>>>>> d9f260321b10dd2027b7fd831086918b7c5b2b6b
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CNBC/src/test/resources/CNBCTestRunner.xml">
@@ -855,6 +1015,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/CNBC/src/main/java/search/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -902,6 +1063,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> d9f260321b10dd2027b7fd831086918b7c5b2b6b
     <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="987">
@@ -1059,10 +1222,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding>
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#1934#1935#0" expanded="true" />
+            <element signature="e#2009#2010#0" expanded="true" />
+            <element signature="e#2981#2982#0" expanded="true" />
+            <element signature="e#3048#3049#0" expanded="true" />
+            <element signature="e#4237#4238#0" expanded="true" />
+            <element signature="e#4277#4278#0" expanded="true" />
+            <element signature="e#4314#4315#0" expanded="true" />
+            <element signature="e#4357#4358#0" expanded="true" />
+            <element signature="e#4702#4703#0" expanded="true" />
+            <element signature="e#4769#4770#0" expanded="true" />
+            <element signature="e#6877#6878#0" expanded="true" />
+            <element signature="e#6925#6926#0" expanded="true" />
+            <element signature="e#6965#6966#0" expanded="true" />
+            <element signature="e#7015#7016#0" expanded="true" />
+            <element signature="e#8997#8998#0" expanded="true" />
+            <element signature="e#9064#9065#0" expanded="true" />
+            <element signature="e#9109#9110#0" expanded="true" />
+            <element signature="e#9189#9190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CNBC/src/test/java/search/TestSearch.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="147">
           <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+=======
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+>>>>>>> d9f260321b10dd2027b7fd831086918b7c5b2b6b
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1070,6 +1267,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CNBC/src/main/java/search/SearchPage.java">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="11" column="74" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="74" />
@@ -1084,6 +1282,17 @@
           <folding>
             <element signature="e#1898#1899#0" expanded="true" />
             <element signature="e#1973#1974#0" expanded="true" />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="11" column="75" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+>>>>>>> d9f260321b10dd2027b7fd831086918b7c5b2b6b
           </folding>
         </state>
       </provider>
