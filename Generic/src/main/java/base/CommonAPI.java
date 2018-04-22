@@ -28,8 +28,8 @@ public class CommonAPI {
 
     @Parameters({"url"})
     @BeforeMethod
-    public void setUp(@Optional("https://www.cnbc.com/") String url) {
-        System.setProperty("webdriver.chrome.driver", "E:\\PIIT\\selenium-weekend\\classprojects\\WebAutomationTeamSeven\\Generic\\driver\\chromedriver.exe");
+    public void setUp(@Optional("http://www.cnbc.com") String url) {
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\fatim\\Web-Automation-TeamSeven\\Generic\\driver\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.navigate().to(url);

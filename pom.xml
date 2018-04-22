@@ -12,7 +12,8 @@
         <module>Generic</module>
         <module>Amazon</module>
         <module>CNBC</module>
-    </modules>
+        <module>KaiserPermanente</module>
+        </modules>
 
     <dependencyManagement>
     <dependencies>

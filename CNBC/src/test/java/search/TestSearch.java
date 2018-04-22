@@ -13,7 +13,7 @@ public class TestSearch extends SearchPage {
 
     @Test
     public void search(){
-        typeOnCss("//input[contains(@placeholder,'Search Quotes, News & Video')]","trade war");
-        clickOnCss("//i[@class='fa fa-search fa-2']");
+        typeOnInputField("//input[@placeholder = 'Search Quotes, News & Video']","trade war");
+        clickOnElement("//*[@id=\"cnbc-new-header\"]/div[1]/div/div[1]/div[1]/span[1]/a/i");
     }
 }

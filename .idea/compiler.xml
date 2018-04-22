@@ -9,7 +9,15 @@
         <module name="amazon" />
         <module name="CNBC" />
         <module name="generic" />
+        <module name="KaiserPermanente" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="amazon" target="1.5" />
+      <module name="CNBC" target="1.5" />
+      <module name="generic" target="1.5" />
+      <module name="KaiserPermanente" target="1.5" />
+      <module name="web" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

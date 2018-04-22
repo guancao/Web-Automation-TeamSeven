@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CNBC/CNBC.iml" filepath="$PROJECT_DIR$/CNBC/CNBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KaiserPermanente/KaiserPermanente.iml" filepath="$PROJECT_DIR$/KaiserPermanente/KaiserPermanente.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Amazon/amazon.iml" filepath="$PROJECT_DIR$/Amazon/amazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Generic/generic.iml" filepath="$PROJECT_DIR$/Generic/generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web.iml" filepath="$PROJECT_DIR$/web.iml" />
+    </modules>
+  </component>
+</project>
