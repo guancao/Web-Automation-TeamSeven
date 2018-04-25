@@ -7,13 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="amazon" />
-        <module name="CNBC" />
-        <module name="generic" />
-        <module name="KaiserPermanente" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="KaiserPermanente" target="1.5" />
+      <module name="amazon" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
