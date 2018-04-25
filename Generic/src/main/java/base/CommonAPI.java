@@ -14,12 +14,15 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
@@ -38,12 +41,16 @@ public class CommonAPI {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
+        driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
     }
 
     @AfterMethod
-    public void afterMethod() {
+    public void afterMethod() throws InterruptedException {
+        Thread.sleep(3000);
+        driver.manage().deleteAllCookies();
         driver.close();
+        driver.quit();
     }
 
     public void clickOnCss(String locator) {
@@ -304,10 +311,52 @@ public class CommonAPI {
         return driver1;
     }
 
-    public List<String> getTextLists(String locator) {
+    public List<String> getTextLists(WebDriver driver, String locator) {
         List<WebElement> elementList = new ArrayList<WebElement>();
         List<String> textList = new ArrayList<String>();
         elementList = driver.findElements(By.cssSelector(locator));
+        for (WebElement element : elementList) {
+            textList.add(element.getText());
+        }
+        return textList;
+
+    }
+
+    //Guan add 4/25/2018
+    public static WebElement findElemByXpath(WebDriver driver, String key) throws IOException {
+        WebElement element = driver.findElement(By.xpath(readProperties(key)));
+        return element;
+    }
+
+    public static List<WebElement> findElemsByXpath(WebDriver driver, String key) throws IOException {
+        List<WebElement> elementList = driver.findElements(By.xpath(readProperties(key)));
+        return elementList;
+    }
+    public static List<String> findElemsStringListByXpath(WebDriver driver, String key) throws IOException {
+        System.out.println("key is ::"+key);
+        System.out.println("xpath is===:"+readProperties(key));
+        List<WebElement> elementList = driver.findElements(By.xpath("readProperties(key)"));
+        List<String> stringList = new ArrayList<String>();
+        for (WebElement ele: elementList){
+            stringList.add(ele.getText());
+        }
+        return stringList;
+    }
+
+    public static String readProperties(String key) throws IOException {
+        String filePath = "C:\\Users\\caog\\Documents\\misc\\Web-Automation-TeamSeven\\CNBC\\src\\test\\resources\\locator.properties";
+        File f = new File(filePath);
+        FileInputStream fis = new FileInputStream(f);
+        Properties prop = new Properties();
+        prop.load(fis);
+        String locatr = prop.getProperty(key);
+        return locatr;
+    }
+
+    public List<String> getTextListXpath(String locator) {
+        List<WebElement> elementList = new ArrayList<WebElement>();
+        List<String> textList = new ArrayList<String>();
+        elementList = driver.findElements(By.xpath(locator));
         for (WebElement element : elementList) {
             textList.add(element.getText());
         }

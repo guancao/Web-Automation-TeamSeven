@@ -15,7 +15,9 @@
     <test name = "CNBC Home">
         <classes>
             <!--<class name="search.TestSearch"/>-->
-            <class name="search.TestSearch"/>
+            <!--<class name="search.TestSearch"/>-->
+            <class name="homepagetest.TestHomePage"/>
+
         </classes>
     </test>
 
