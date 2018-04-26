@@ -9,12 +9,15 @@
     <!--<parameter name="os_version" value="Sierra"/>-->
     <!--<parameter name="browserName" value="firefox"/>-->
     <!--<parameter name="browserVersion" value="53.0"/>-->
+    <parameter name="chromedriverpath" value="C:\\Users\\caog\\Documents\\misc\\Web-Automation-TeamSeven\\Generic\\driver\\chromedriver.exe"/>
     <parameter name="url" value="https://www.cnbc.com/"/>
 
     <test name = "CNBC Home">
         <classes>
             <!--<class name="search.TestSearch"/>-->
-            <class name="search.TestSearch"/>
+            <!--<class name="search.TestSearch"/>-->
+            <class name="homepagetest.TestHomePage"/>
+
         </classes>
     </test>
 

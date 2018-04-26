@@ -7,3 +7,10 @@
 /.idea/compiler.xml
 /.idea/
 /Generic/driver/
+/Generic/target/
+/CNBC/target/
+Amazon/target/
+CNBC/target/generated-sources/
+CNBC/target/generated-test-sources/
+Generic/target/generated-sources/
+/Amazon/target/
