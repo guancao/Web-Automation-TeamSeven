@@ -1,16 +1,15 @@
 
-/.gitignore
-/.idea/workspace.xml
-/.idea/vcs.xml
-/.idea/uiDesigner.xml
-/.idea/misc.xml
-/.idea/compiler.xml
-/.idea/
 /Generic/driver/
 /Generic/target/
 /CNBC/target/
 Amazon/target/
-CNBC/target/generated-sources/
-CNBC/target/generated-test-sources/
-Generic/target/generated-sources/
-/Amazon/target/
+
+/.idea/workspace.xml
+/.idea/WebAutomationTeamSeven.iml
+/.idea/vcs.xml
+/.idea/modules.xml
+/.idea/misc.xml
+/.idea/compiler.xml
+/CNBC/src/test/resources/CNBCmenuTestRunner.xml
+/CNBC/src/test/resources/CNBCTestRunner.xml
+/CNBC/src/test/resources/HomePageTestRunner.xml

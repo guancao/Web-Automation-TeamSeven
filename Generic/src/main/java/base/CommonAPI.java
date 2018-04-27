@@ -32,12 +32,10 @@ public class CommonAPI {
     @Parameters({"chromedriverpath","url"})
 //    @Parameters({"url"})
     @BeforeMethod
-//    public void setUp(@Optional("http://www.cnbc.com") String url) {
-//        System.setProperty("webdriver.chrome.driver", "C:\\Users\\fatim\\Web-Automation-TeamSeven\\Generic\\driver\\chromedriver.exe");
     public void setUp(String chromedriverpath, String url) {    //@Optional("https://www.cnbc.com/")
-        System.setProperty("webdriver.chrome.driver",
-                "C:\\Users\\caog\\Documents\\misc\\Web-Automation-TeamSeven\\Generic\\driver\\chromedriver.exe");
-//        System.setProperty("webdriver.chrome.driver", chromedriverpath);
+//        System.setProperty("webdriver.chrome.driver",
+//                "E:\\PIIT\\selenium-weekend\\classprojects\\WebAutomationTeamSeven\\Generic\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", chromedriverpath);
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
