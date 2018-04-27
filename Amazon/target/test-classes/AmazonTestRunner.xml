@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="CNBC Automation Script" parallel="false">
+<suite name="Amazon Automation Script " parallel="false">
 
     <!--<parameter name="useCloudEnv" value="false"/>-->
     <!--<parameter name="cloudEnvName" value="browserstack"/>-->
@@ -9,13 +9,13 @@
     <!--<parameter name="os_version" value="Sierra"/>-->
     <!--<parameter name="browserName" value="firefox"/>-->
     <!--<parameter name="browserVersion" value="53.0"/>-->
-    <parameter name="chromedriverpath" value="C:\Users\caog\Documents\misc\team7\Web-Automation-TeamSeven\Generic\driver\chromedriver.exe"/>
-    <parameter name="url" value="https://www.cnbc.com/"/>
+    <parameter name="chromedriverpath" value="E:\\PIIT\\selenium-weekend\\classprojects\\WebAutomationTeamSeven\\Generic\\driver\\chromedriver.exe"/>
+    <parameter name="url" value="https://www.amazon.com"/>
 
-    <test name = "CNBC Home">
+    <test name = "Amazon Home">
         <classes>
-            <class name="homepagetest.TestHomePage"/>
-            <!--<class name="search.TestSearch"/>-->
+            <class name="search.TestSearch"/>
+            <!--<class name="menu.TestDropDownMenu"/>-->
         </classes>
     </test>
 

@@ -9,7 +9,7 @@
     <!--<parameter name="os_version" value="Sierra"/>-->
     <!--<parameter name="browserName" value="firefox"/>-->
     <!--<parameter name="browserVersion" value="53.0"/>-->
-    <parameter name="chromedriverpath" value="E:\\PIIT\\selenium-weekend\\classprojects\\WebAutomationTeamSeven\\Generic\\driver\\chromedriver.exe"/>
+    <parameter name="chromedriverpath" value="C:\Users\caog\Documents\misc\team7\Web-Automation-TeamSeven\Generic\driver\chromedriver.exe"/>
     <parameter name="url" value="https://www.cnbc.com/"/>
     <parameter name="spreadSheetId" value="1XtGWMkFXUKyjSg9QkZqDJsN0UiPhMpV4L49hrNKcTks" />
     <parameter name="dataRange" value="CNBC Menu!A2:A6"/>
