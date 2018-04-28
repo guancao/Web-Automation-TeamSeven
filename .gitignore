@@ -1,8 +1,13 @@
 
-/Generic/target/
-/CNBC/target/
-Amazon/target/
 /.idea/workspace.xml
-/CNBC/src/test/resources/CNBCmenuTestRunner.xml
-/CNBC/src/test/resources/CNBCTestRunner.xml
-/CNBC/src/test/resources/HomePageTestRunner.xml
+
+/Amazon/target/
+/CNBC/target/
+/Generic/target/
+/KaiserPermanente/target/
+/Statemfarm/target/
+
+/Generic/driver/chromedriver.exe
+
+CNBC/src/test/resources/CNBCTestRunner.xml
+
