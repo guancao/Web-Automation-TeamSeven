@@ -26,7 +26,7 @@
                 <version>2.21.0</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>KaiserPermanente/target/test-classes/kaiserTestRunner.xml</suiteXmlFile>
+                        <suiteXmlFile>target/test-classes/kaiserTestRunner.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
