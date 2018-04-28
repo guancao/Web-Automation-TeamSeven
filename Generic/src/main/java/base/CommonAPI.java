@@ -410,4 +410,8 @@ public class CommonAPI {
         return textList;
 
     }
+    public static boolean isPopUpWindowDisplayed(WebDriver driver1, String locator){
+        boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();
+        return value;
+    }
 }
