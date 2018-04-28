@@ -1,15 +1,8 @@
 
-/Generic/driver/
 /Generic/target/
 /CNBC/target/
 Amazon/target/
-
 /.idea/workspace.xml
-/.idea/WebAutomationTeamSeven.iml
-/.idea/vcs.xml
-/.idea/modules.xml
-/.idea/misc.xml
-/.idea/compiler.xml
 /CNBC/src/test/resources/CNBCmenuTestRunner.xml
 /CNBC/src/test/resources/CNBCTestRunner.xml
 /CNBC/src/test/resources/HomePageTestRunner.xml

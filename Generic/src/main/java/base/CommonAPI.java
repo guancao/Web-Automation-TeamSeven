@@ -29,12 +29,9 @@ public class CommonAPI {
 
     public WebDriver driver = null;
 
-    @Parameters({"chromedriverpath","url"})
-//    @Parameters({"url"})
+    @Parameters({"chromedriverpath", "url"})
     @BeforeMethod
-    public void setUp(String chromedriverpath, String url) {    //@Optional("https://www.cnbc.com/")
-//        System.setProperty("webdriver.chrome.driver",
-//                "E:\\PIIT\\selenium-weekend\\classprojects\\WebAutomationTeamSeven\\Generic\\driver\\chromedriver.exe");
+    public void setUp(String chromedriverpath, String url) {
         System.setProperty("webdriver.chrome.driver", chromedriverpath);
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -55,6 +52,7 @@ public class CommonAPI {
         driver.findElement(By.cssSelector(locator)).click();
     }
 
+    //click WebElement located with either cssSelector, xpath, id, or name
     public void clickOnElement(String locator) {
         try {
             driver.findElement(By.cssSelector(locator)).click();
@@ -62,15 +60,16 @@ public class CommonAPI {
             try {
                 driver.findElement(By.xpath(locator)).click();
             } catch (Exception ex2) {
-                driver.findElement(By.id(locator)).click();
+                try {
+                    driver.findElement(By.id(locator)).click();
+                } catch (Exception ex3) {
+                    driver.findElement(By.name(locator)).click();
+                }
             }
         }
     }
 
-    public void typeOnCss(String locator, String value) {
-        driver.findElement(By.cssSelector(locator)).sendKeys(value);
-    }
-
+    //type on input field located with cssSelector, xpath, id, or name
     public void typeOnInputField(String locator, String value) {
         try {
             driver.findElement(By.cssSelector(locator)).sendKeys(value);
@@ -78,9 +77,49 @@ public class CommonAPI {
             try {
                 driver.findElement(By.xpath(locator)).sendKeys(value);
             } catch (Exception ex2) {
-                driver.findElement(By.id(locator)).sendKeys(value);
+                try {
+                    driver.findElement(By.id(locator)).sendKeys(value);
+                } catch (Exception ex3) {
+                    driver.findElement(By.name(locator)).sendKeys(value);
+                }
             }
         }
+    }
+
+    //return the list of Web Elements located by locator
+    public List<WebElement> getWebElementList(String locator) {
+        List<WebElement> list = new ArrayList<WebElement>();
+        try {
+            list = driver.findElements(By.cssSelector(locator));
+        } catch (Exception ex1) {
+            try {
+                list = driver.findElements(By.xpath(locator));
+            } catch (Exception ex2) {
+                try {
+                    list = driver.findElements(By.id(locator));
+                } catch (Exception ex3) {
+                    list = driver.findElements(By.name(locator));
+                }
+            }
+        }
+        return list;
+    }
+
+    //find web elements, return the string list
+    public List<String> getStringListFromWebElements(String locator) {
+        List<WebElement> element = new ArrayList<WebElement>();
+        List<String> text = new ArrayList<String>();
+        element = getWebElementList(locator);
+        for (WebElement web : element) {
+            String st = web.getText();
+            text.add(st);
+        }
+        return text;
+    }
+
+
+    public void typeOnCss(String locator, String value) {
+        driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
 
     public void clickByXpath(String locator) {
@@ -330,12 +369,13 @@ public class CommonAPI {
         List<WebElement> elementList = driver.findElements(By.xpath(readProperties(key)));
         return elementList;
     }
+
     public static List<String> findElemsStringListByXpath(WebDriver driver, String key) throws IOException {
-        System.out.println("key is ::"+key);
-        System.out.println("xpath is===:"+readProperties(key));
+        System.out.println("key is ::" + key);
+        System.out.println("xpath is===:" + readProperties(key));
         List<WebElement> elementList = driver.findElements(By.xpath("readProperties(key)"));
         List<String> stringList = new ArrayList<String>();
-        for (WebElement ele: elementList){
+        for (WebElement ele : elementList) {
             stringList.add(ele.getText());
         }
         return stringList;
