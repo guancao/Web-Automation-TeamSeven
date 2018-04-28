@@ -13,3 +13,12 @@ Moyna E-Commerce  70%-Aftab-10%, Selina-10%, Kaniz-10%
 Selina. Retail.          70%-Moyna-10%, Aftab-10%, Kaniz-10%
 Kaniz.  Social Media 70%-Aftab-10%, Selina-10%, Moyna-10%
 Financial & Health Care—All of you
+
+4/28/2018  upate the CommonAPI on setUp()
+**** you have the choice to use local or cloud driver
+**** you have choice to use chrome or firefox
+**** make sure you set up your runner accordingly
+==== for local driver, Windows PC, chrome ===
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="browserName" value="chrome"/>

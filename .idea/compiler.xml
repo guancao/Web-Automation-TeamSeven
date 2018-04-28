@@ -10,18 +10,22 @@
         <module name="amazon" />
         <module name="CNBC" />
         <module name="generic" />
+        <module name="HomeDepot" />
+        <module name="Instagram" />
         <module name="KaiserPermanente" />
         <module name="Statemfarm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Alibaba" target="1.5" />
-      <module name="amazon" target="1.5" />
-      <module name="CNBC" target="1.5" />
-      <module name="generic" target="1.5" />
-      <module name="KaiserPermanente" target="1.5" />
-      <module name="Statemfarm" target="1.5" />
-      <module name="WebAutomationTeamSeven" target="1.5" />
+      <module name="amazon" target="1.8" />
+      <module name="CNBC" target="1.8" />
+      <module name="generic" target="1.8" />
+      <module name="HomeDepot" target="1.8" />
+      <module name="Instagram" target="1.8" />
+      <module name="KaiserPermanente" target="1.8" />
+      <module name="Statemfarm" target="1.8" />
+      <module name="WebAutomationTeamSeven" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
