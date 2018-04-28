@@ -31,7 +31,7 @@ public class CommonAPI {
 
     @Parameters({"chromedriverpath", "url"})
     @BeforeMethod
-    public void setUp(String chromedriverpath, String url) {
+     public void setUp(String chromedriverpath, String url) {    //@Optional("https://www.cnbc.com/")
         System.setProperty("webdriver.chrome.driver", chromedriverpath);
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -52,7 +52,15 @@ public class CommonAPI {
         driver.findElement(By.cssSelector(locator)).click();
     }
 
-    //click WebElement located with either cssSelector, xpath, id, or name
+
+    public void clickWebElement(String locator){
+        driver.findElement(By.id(locator)).click();
+    }
+
+    public void textInputField(String locator, String value){
+        driver.findElement(By.id(locator)).sendKeys(value);
+    }
+
     public void clickOnElement(String locator) {
         try {
             driver.findElement(By.cssSelector(locator)).click();
@@ -200,7 +208,8 @@ public class CommonAPI {
     }
 
     public String getTextById(String locator) {
-        return driver.findElement(By.id(locator)).getText();
+        String text = driver.findElement(By.id(locator)).getText();
+        return text;
     }
 
     public String getTextByName(String locator) {
