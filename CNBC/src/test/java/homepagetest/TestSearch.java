@@ -1,12 +1,13 @@
-package search;
+package homepagetest;
 
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
+import homepage.SearchPage;
 
 public class TestSearch extends SearchPage {
 
     @Test
-    public void test() {
+    public void testSeartch() {
         SearchPage searchPage = PageFactory.initElements(driver, SearchPage.class);
         searchPage.searchItems();
     }

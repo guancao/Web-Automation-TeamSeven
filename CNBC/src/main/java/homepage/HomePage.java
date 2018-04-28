@@ -1,13 +1,13 @@
 package homepage;
 
 import base.CommonAPI;
+import com.gargoylesoftware.htmlunit.javascript.host.URL;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,6 @@ public class HomePage extends CommonAPI {
     //retrieve the menu item information, return a list -- method #1
     public List<String> retrieveMenuTitle(WebDriver driver) throws IOException {
         List<String> menu = new ArrayList<String>();
-//        menu = findElemsStringListByXpath(driver, readProperties("menuxpath"));
         menu=getTextLists(driver,"#nav");
         return menu;
     }
@@ -28,8 +27,7 @@ public class HomePage extends CommonAPI {
     public List<String> retrieveMenuTitle2(WebDriver driver) throws IOException {
         List<String> menu = new ArrayList<String>();
         menu = findElemsStringListByXpath(driver, readProperties("menuxpath"));
- //       menu=getTextLists("#nav");
-        return menu;
+         return menu;
     }
 
     //search using the search box
@@ -61,5 +59,4 @@ public class HomePage extends CommonAPI {
 
         return itemsList;
     }
-
 }

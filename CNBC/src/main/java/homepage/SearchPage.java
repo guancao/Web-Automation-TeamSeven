@@ -1,4 +1,4 @@
-package search;
+package homepage;
 
 import base.CommonAPI;
 import org.openqa.selenium.Keys;
@@ -28,6 +28,7 @@ public class SearchPage extends CommonAPI {
         }
     }
 
+    //prepare the list for the searchItems()
     public List<String> getItemValue(){
         List<String> itemsList = new ArrayList<String>();
         itemsList.add("Facebook");

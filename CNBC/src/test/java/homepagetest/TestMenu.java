@@ -12,12 +12,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestHomePage extends CommonAPI { //HomePage {
+public class TestMenu extends CommonAPI { //HomePage {
 
 //    HomePage hp = PageFactory.initElements(driver, HomePage.class);
-    HomePage hp=new HomePage();   //either PageFactory or HomePage object works
+//    HomePage hp=new HomePage();   //either PageFactory or HomePage object works
     @Test
     public void testMenu() throws IOException {
+        HomePage hp = PageFactory.initElements(driver, HomePage.class);
         List<String> menuFromHomePage = hp.retrieveMenuTitle(driver);
         for (String str : menuFromHomePage)
             System.out.println("from homepage ==" + str);

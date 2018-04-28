@@ -9,5 +9,4 @@
 
 /Generic/driver/chromedriver.exe
 
-CNBC/src/test/resources/CNBCTestRunner.xml
-
+/CNBC/src/test/resources/CNBCTestRunner.xml

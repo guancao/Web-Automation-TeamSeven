@@ -52,7 +52,6 @@ public class CommonAPI {
         driver.findElement(By.cssSelector(locator)).click();
     }
 
-
     public void clickWebElement(String locator){
         driver.findElement(By.id(locator)).click();
     }
@@ -125,7 +124,6 @@ public class CommonAPI {
         return text;
     }
 
-
     public void typeOnCss(String locator, String value) {
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
@@ -168,7 +166,6 @@ public class CommonAPI {
             String st = web.getText();
             text.add(st);
         }
-
         return text;
     }
 
@@ -302,7 +299,6 @@ public class CommonAPI {
             System.out.println("Exception while taking screenshot " + e.getMessage());
             ;
         }
-
     }
 
     //Taking Screen shots

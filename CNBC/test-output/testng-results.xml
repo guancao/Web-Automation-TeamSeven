@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CNBC Automation Script" duration-ms="70040" started-at="2018-04-28T19:22:18Z" finished-at="2018-04-28T19:23:29Z">
+    <groups>
+    </groups>
+    <test name="CNBC Home" duration-ms="70040" started-at="2018-04-28T19:22:18Z" finished-at="2018-04-28T19:23:29Z">
+      <class name="homepagetest.TestMenu">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:homepagetest.TestMenu@5a8e6209]" name="setUp" is-config="true" duration-ms="6607" started-at="2018-04-28T19:23:16Z" finished-at="2018-04-28T19:23:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[E:\\PIIT\\selenium-weekend\\classprojects\\WebAutomationTeamSeven\\Generic\\driver\\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.cnbc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMenu()[pri:0, instance:homepagetest.TestMenu@5a8e6209]" name="testMenu" duration-ms="242" started-at="2018-04-28T19:23:22Z" finished-at="2018-04-28T19:23:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenu -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:homepagetest.TestMenu@5a8e6209]" name="afterMethod" is-config="true" duration-ms="6032" started-at="2018-04-28T19:23:22Z" finished-at="2018-04-28T19:23:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- homepagetest.TestMenu -->
+      <class name="homepagetest.TestSearch">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:homepagetest.TestSearch@3b0143d3]" name="setUp" is-config="true" duration-ms="7600" started-at="2018-04-28T19:22:18Z" finished-at="2018-04-28T19:22:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[E:\\PIIT\\selenium-weekend\\classprojects\\WebAutomationTeamSeven\\Generic\\driver\\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.cnbc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:homepagetest.TestSearch@3b0143d3]" name="search" duration-ms="2201" started-at="2018-04-28T19:22:26Z" finished-at="2018-04-28T19:22:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:homepagetest.TestSearch@3b0143d3]" name="afterMethod" is-config="true" duration-ms="6154" started-at="2018-04-28T19:22:28Z" finished-at="2018-04-28T19:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:homepagetest.TestSearch@3b0143d3]" name="setUp" is-config="true" duration-ms="6770" started-at="2018-04-28T19:22:34Z" finished-at="2018-04-28T19:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[E:\\PIIT\\selenium-weekend\\classprojects\\WebAutomationTeamSeven\\Generic\\driver\\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.cnbc.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSeartch()[pri:0, instance:homepagetest.TestSearch@3b0143d3]" name="testSeartch" duration-ms="28137" started-at="2018-04-28T19:22:41Z" finished-at="2018-04-28T19:23:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSeartch -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:homepagetest.TestSearch@3b0143d3]" name="afterMethod" is-config="true" duration-ms="6264" started-at="2018-04-28T19:23:09Z" finished-at="2018-04-28T19:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- homepagetest.TestSearch -->
+    </test> <!-- CNBC Home -->
+  </suite> <!-- CNBC Automation Script -->
+</testng-results>
