@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="kaiser Automation Script" duration-ms="188917" started-at="2018-04-28T19:30:41Z" finished-at="2018-04-28T19:33:50Z">
+    <groups>
+    </groups>
+    <test name="Kaiser SignIn" duration-ms="188917" started-at="2018-04-28T19:30:41Z" finished-at="2018-04-28T19:33:50Z">
+      <class name="home.TestSearchOptions">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:home.TestSearchOptions@33f88ab]" name="setUp" is-config="true" duration-ms="12400" started-at="2018-04-28T19:32:44Z" finished-at="2018-04-28T19:32:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/fatim/Web-Automation-TeamSeven/Generic/driver/chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.kaiserpermanente.org]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:home.TestSearchOptions@33f88ab]" name="search" duration-ms="47832" started-at="2018-04-28T19:32:56Z" finished-at="2018-04-28T19:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:home.TestSearchOptions@33f88ab]" name="afterMethod" is-config="true" duration-ms="5827" started-at="2018-04-28T19:33:44Z" finished-at="2018-04-28T19:33:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- home.TestSearchOptions -->
+      <class name="linktext.HandleLinkText">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:linktext.HandleLinkText@2833cc44]" name="setUp" is-config="true" duration-ms="12345" started-at="2018-04-28T19:32:06Z" finished-at="2018-04-28T19:32:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/fatim/Web-Automation-TeamSeven/Generic/driver/chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.kaiserpermanente.org]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="linkText()[pri:0, instance:linktext.HandleLinkText@2833cc44]" name="linkText" duration-ms="18082" started-at="2018-04-28T19:32:18Z" finished-at="2018-04-28T19:32:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkText -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:linktext.HandleLinkText@2833cc44]" name="afterMethod" is-config="true" duration-ms="7256" started-at="2018-04-28T19:32:36Z" finished-at="2018-04-28T19:32:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- linktext.HandleLinkText -->
+      <class name="authentication.TestAuthentication">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:authentication.TestAuthentication@17579e0f]" name="setUp" is-config="true" duration-ms="12526" started-at="2018-04-28T19:30:41Z" finished-at="2018-04-28T19:30:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/fatim/Web-Automation-TeamSeven/Generic/driver/chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.kaiserpermanente.org]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signIn()[pri:0, instance:authentication.TestAuthentication@17579e0f]" name="signIn" duration-ms="6943" started-at="2018-04-28T19:30:53Z" finished-at="2018-04-28T19:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:authentication.TestAuthentication@17579e0f]" name="afterMethod" is-config="true" duration-ms="8937" started-at="2018-04-28T19:31:00Z" finished-at="2018-04-28T19:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- authentication.TestAuthentication -->
+      <class name="authentication.TestPopUpWindow">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:authentication.TestPopUpWindow@4d41cee]" name="setUp" is-config="true" duration-ms="12016" started-at="2018-04-28T19:31:09Z" finished-at="2018-04-28T19:31:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/fatim/Web-Automation-TeamSeven/Generic/driver/chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.kaiserpermanente.org]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPopUp()[pri:0, instance:authentication.TestPopUpWindow@4d41cee]" name="testPopUp" duration-ms="5432" started-at="2018-04-28T19:31:21Z" finished-at="2018-04-28T19:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPopUp -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:authentication.TestPopUpWindow@4d41cee]" name="afterMethod" is-config="true" duration-ms="8969" started-at="2018-04-28T19:31:27Z" finished-at="2018-04-28T19:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- authentication.TestPopUpWindow -->
+      <class name="authentication.TestSignOut">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:authentication.TestSignOut@3712b94]" name="setUp" is-config="true" duration-ms="12355" started-at="2018-04-28T19:31:36Z" finished-at="2018-04-28T19:31:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/Users/fatim/Web-Automation-TeamSeven/Generic/driver/chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.kaiserpermanente.org]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPopUp()[pri:0, instance:authentication.TestSignOut@3712b94]" name="testPopUp" duration-ms="10603" started-at="2018-04-28T19:31:48Z" finished-at="2018-04-28T19:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPopUp -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:authentication.TestSignOut@3712b94]" name="afterMethod" is-config="true" duration-ms="7369" started-at="2018-04-28T19:31:59Z" finished-at="2018-04-28T19:32:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- authentication.TestSignOut -->
+    </test> <!-- Kaiser SignIn -->
+  </suite> <!-- kaiser Automation Script -->
+</testng-results>

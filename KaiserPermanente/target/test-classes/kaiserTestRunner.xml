@@ -13,12 +13,11 @@
     <parameter name="chromedriverpath" value="/Users/fatim/Web-Automation-TeamSeven/Generic/driver/chromedriver.exe"/>
     <test name = "Kaiser SignIn">
         <classes>
-            <!--<class name="search.TestSearch"/>-->
-            <!--<class name="authentication.TestAuthentication"/>-->
+            <class name="authentication.TestAuthentication"/>
             <class name="authentication.TestPopUpWindow"/>
-           <!-- <class name=".authentication.TestSignOut"/>-->
-           <!-- <class name="linktext.HandleLinkText"/>-->
-            <!--<class name="home.TestSearchOptions"/>-->
+            <class name="authentication.TestSignOut"/>
+            <class name="linktext.HandleLinkText"/>
+            <class name="home.TestSearchOptions"/>
         </classes>
     </test>
 
