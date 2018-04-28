@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 189.112 s <<< FAILURE! - in TestSuite
-signIn(authentication.TestAuthentication)  Time elapsed: 5.661 s  <<< FAILURE!
-java.lang.AssertionError: expected [fatima] but found []
-	at authentication.TestAuthentication.signIn(TestAuthentication.java:12)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 189.923 s - in TestSuite

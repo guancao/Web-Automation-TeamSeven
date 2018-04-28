@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-kaiser_Automation_Script">
-              <span class="suite-name border-failed">kaiser Automation Script</span>
+              <span class="suite-name border-passed">kaiser Automation Script</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-kaiser_Automation_Script" class="hide-methods failed suite-kaiser_Automation_Script"> (hide)</a> <!-- hide-methods failed suite-kaiser_Automation_Script -->
-                      <a href="#" panel-name="suite-kaiser_Automation_Script" class="show-methods failed suite-kaiser_Automation_Script"> (show)</a> <!-- show-methods failed suite-kaiser_Automation_Script -->
-                    </span>
-                    <div class="method-list-content failed suite-kaiser_Automation_Script">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-kaiser_Automation_Script" title="authentication.TestAuthentication" hash-for-method="signIn">signIn</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-kaiser_Automation_Script -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -126,12 +112,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-kaiser_Automation_Script" title="authentication.TestSignOut" hash-for-method="testPopUp">testPopUp</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-kaiser_Automation_Script" title="authentication.TestAuthentication" hash-for-method="signIn">signIn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-kaiser_Automation_Script" title="authentication.TestPopUpWindow" hash-for-method="testPopUp">testPopUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-kaiser_Automation_Script" title="authentication.TestSignOut" hash-for-method="testPopUp">testPopUp</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-kaiser_Automation_Script -->
@@ -146,26 +137,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-kaiser_Automation_Script" class="panel kaiser_Automation_Script">
-          <div class="suite-kaiser_Automation_Script-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">authentication.TestAuthentication</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="signIn">
-                  </a> <!-- signIn -->
-                  <span class="method-name">signIn</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [fatima] but found []
-	at authentication.SignInPage.signInToKaiser(SignInPage.java:72)
-	at authentication.TestAuthentication.signIn(TestAuthentication.java:12)
-... Removed 35 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-kaiser_Automation_Script-class-failed -->
           <div class="suite-kaiser_Automation_Script-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -192,6 +163,21 @@
                   <a name="testPopUp">
                   </a> <!-- testPopUp -->
                   <span class="method-name">testPopUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-kaiser_Automation_Script-class-passed -->
+          <div class="suite-kaiser_Automation_Script-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">authentication.TestAuthentication</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="signIn">
+                  </a> <!-- signIn -->
+                  <span class="method-name">signIn</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -288,23 +274,23 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'search')
 data.setCell(0, 2, 'home.TestSearchOptions')
-data.setCell(0, 3, 46777);
+data.setCell(0, 3, 47832);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'linkText')
 data.setCell(1, 2, 'linktext.HandleLinkText')
-data.setCell(1, 3, 17879);
+data.setCell(1, 3, 18082);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testPopUp')
 data.setCell(2, 2, 'authentication.TestSignOut')
-data.setCell(2, 3, 10197);
+data.setCell(2, 3, 10603);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testPopUp')
-data.setCell(3, 2, 'authentication.TestPopUpWindow')
-data.setCell(3, 3, 6112);
+data.setCell(3, 1, 'signIn')
+data.setCell(3, 2, 'authentication.TestAuthentication')
+data.setCell(3, 3, 6943);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'signIn')
-data.setCell(4, 2, 'authentication.TestAuthentication')
-data.setCell(4, 3, 5651);
+data.setCell(4, 1, 'testPopUp')
+data.setCell(4, 2, 'authentication.TestPopUpWindow')
+data.setCell(4, 3, 5432);
 window.suiteTableData['kaiser_Automation_Script']= { tableData: data, tableDiv: 'times-div-kaiser_Automation_Script'}
 return data;
 }
@@ -341,74 +327,72 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">signIn</span>
-                <span class="method-start">13472 ms</span>
+                <span class="method-start">12526 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">19132 ms</span>
+                <span class="method-start">19469 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">authentication.TestPopUpWindow</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(/Users/fatim/Web-Automation-TeamSeven/Generic/driver/chromedriver.exe, https://www.kaiserpermanente....)</span>
-                <span class="method-start">27950 ms</span>
+                <span class="method-start">28409 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testPopUp</span>
-                <span class="method-start">39776 ms</span>
+                <span class="method-start">40425 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">45888 ms</span>
+                <span class="method-start">45857 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">authentication.TestSignOut</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(/Users/fatim/Web-Automation-TeamSeven/Generic/driver/chromedriver.exe, https://www.kaiserpermanente....)</span>
-                <span class="method-start">53249 ms</span>
+                <span class="method-start">54826 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testPopUp</span>
-                <span class="method-start">65346 ms</span>
+                <span class="method-start">67181 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">75543 ms</span>
+                <span class="method-start">77785 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">linktext.HandleLinkText</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(/Users/fatim/Web-Automation-TeamSeven/Generic/driver/chromedriver.exe, https://www.kaiserpermanente....)</span>
-                <span class="method-start">82932 ms</span>
+                <span class="method-start">85154 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">linkText</span>
-                <span class="method-start">94885 ms</span>
+                <span class="method-start">97499 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">112764 ms</span>
+                <span class="method-start">115582 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">home.TestSearchOptions</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(/Users/fatim/Web-Automation-TeamSeven/Generic/driver/chromedriver.exe, https://www.kaiserpermanente....)</span>
-                <span class="method-start">121009 ms</span>
+                <span class="method-start">122839 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">search</span>
-                <span class="method-start">133538 ms</span>
+                <span class="method-start">135239 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">180315 ms</span>
+                <span class="method-start">183071 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
